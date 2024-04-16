@@ -44,7 +44,7 @@ const Home = () =>{
                                     <Col key={pelicula.peliculaId}>
                                         <PeliculaCard pelicula={pelicula} key={pelicula.peliculaId} />
                                     </Col>
-                                ))};
+                                ))}
                             </Row>
                         </>
                     ) :
